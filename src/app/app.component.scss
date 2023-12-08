@@ -10,10 +10,10 @@
   @include tablet {
     flex-direction: column;
   }
+
   @include mobile {
     padding: 88px 24px 90px 24px;
   }
-  
 }
 .auth-info {
   flex-shrink: 0;
@@ -21,8 +21,6 @@
   flex-direction: column;
 }
 app-auth-form {
-  position: relative;
-
   flex-grow: 1;
 }
 
@@ -51,5 +49,6 @@ app-auth-form {
     background: rgba(52, 64, 84, 0.85);
   }
 }
-
-
+.container {
+  position: relative;
+}
