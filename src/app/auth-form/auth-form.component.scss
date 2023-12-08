@@ -133,7 +133,37 @@
     }
   }
 
-  
+  .form-group {
+    display: flex;
+    align-items: center;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid var(--c-border);
+    transition: 0.2s ease-in;
+    &::placeholder {
+      color: var(--gray);
+    }
+    &:hover {
+      border-color: var(--primary-color);
+    }
+    i {
+      color: #667085;
+    }
+    input {
+      padding-right: 10px;
+      flex: 1;
+      border: 0;
+      outline: 0;
+    }
+    .eyeicon {
+      cursor: pointer;
+      margin: 0;
+    }
+    span {
+      margin: 0;
+    }
+  }
 
   
 }
